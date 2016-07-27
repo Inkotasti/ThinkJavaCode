@@ -12,8 +12,10 @@ public class UsefulMethods {
     }
 
     /**
-     * @param n
-     * @return Returns every odd integer sum from n to 1.
+     * Sums every odd integer starting from n to 1. Accepts only odd integer. Loops until user does so.
+     *
+     * @param n the integer where sum starts
+     * @return returns odd integers sum.
      */
 
     public static int oddSum(int n) {
